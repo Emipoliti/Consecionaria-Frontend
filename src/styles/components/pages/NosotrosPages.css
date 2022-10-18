@@ -1,0 +1,60 @@
+.historia{
+    margin: 1em;
+    padding: 0;
+}
+
+.historia p{
+    font-size: 1em;
+    margin-bottom: 3em;
+
+}
+
+
+.persona{
+    width: 18%;
+    float: left;
+    margin-left: 2.25%;
+    border: 1px solid black;
+    border-radius: 0.25em;
+    box-sizing: border-box;
+}
+
+.persona{
+    text-align: center;
+}
+
+.persona img{
+    height: 165px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 0.8em 0 1em;
+    border: 1px solid lightblue; 
+}
+
+.persona h5 h6 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 0.9em;
+    color: #07273b;
+}
+
+.persona h6{
+    font-size: 0.8em;
+    color: #07273b;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.persona p{
+    font-size: 0.9em;
+    margin: 0 1em 1em;
+    color: #444;
+}
+
+.persona:first-child{
+    margin-left: 0;
+}
+

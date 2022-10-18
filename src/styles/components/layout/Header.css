@@ -1,0 +1,27 @@
+.header-1{
+    background-color: #07273b;
+    padding: 1em 0;
+    height: 130px;
+}
+
+.titulo h1{
+    color: white;
+    font-size: 3em;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    left: 3em;
+    bottom: 2em;
+    margin: 0;
+    
+}
+
+.header-1 img{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+
+}

@@ -1,0 +1,16 @@
+.footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin: 0;
+}
+
+.footer p{
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+

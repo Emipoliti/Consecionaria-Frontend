@@ -1,0 +1,20 @@
+.holder-novedades{
+    background-color: beige;
+    margin: 0;
+}
+
+main h2{
+    text-decoration: underline;
+    padding-top: 10px;
+    color: #004f69;
+    margin: 0;
+    padding-left: 0.5em;
+}
+
+
+.novedades{
+    padding-top: 10px;
+    border-bottom: solid 2px gray;
+    margin-top: 5px;
+    padding-left: 0.5em;
+}
