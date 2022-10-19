@@ -1,0 +1,38 @@
+main{
+    box-sizing: border-box;
+}
+
+.holder h2{
+padding: 0px 40px;
+}
+
+.autos, .usados, .motos{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px 25px;
+}
+
+.autos img{
+    width: 285px;
+    height: 220px;
+}
+
+.card{
+    margin: 15px;
+}
+
+.card-title{
+    font-style: bold;
+    text-decoration: underline;
+}
+
+.usados img{
+    width: 285px;
+    height: 220px;
+}
+
+.motos img{
+    width: 285px;
+    height: 220px;
+}
