@@ -2,7 +2,11 @@ main{
     box-sizing: border-box;
 }
 
-.holder h2{
+.holder-galeria{
+background-color: beige;
+}
+
+.holder-galeria h2{
 padding: 0px 40px;
 }
 
@@ -10,7 +14,9 @@ padding: 0px 40px;
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 15px 25px;
+    align-content: space-around;
+  
+    
 }
 
 .autos img{

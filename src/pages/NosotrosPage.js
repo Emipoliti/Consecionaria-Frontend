@@ -3,9 +3,9 @@ import "../styles/components/pages/NosotrosPages.css";
 
 const NosotrosPage = (props) => {
   return (
-    <main className="holder">
+    <main className="holder-nosotros">
       <div className="historia">
-        <h2>Historia</h2>
+        <h2>Historia:</h2>
         <p>
           Comenzaba a transcurrir la década del 60 cuando nace esta empresa
           familiar, hoy distribuida a lo largo de todo el pais. Por iniciativa

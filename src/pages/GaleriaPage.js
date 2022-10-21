@@ -3,7 +3,7 @@ import "../styles/components/pages/GaleriaPages.css";
 
 const GaleriaPage = (props) => {
   return (
-    <main className="holder">
+    <main className="holder-galeria">
       <h2>Autos 0km:</h2>
 
       <div className="autos">
@@ -128,7 +128,32 @@ const GaleriaPage = (props) => {
             </div>
           </div>
         </div>
+        
+        <div>
+          <div className="card" style={{ width: "18rem" }}>
+            <img
+              src="./Img/0km/Gol-Trend.webp"
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">Gol Trend:</h5>
+              <p className="card-text">
+                <ul>
+                  <li>0km</li>
+                  <li>1.6</li>
+                  <li>GNC</li>
 
+                </ul>
+
+
+              </p>
+              <a href={"/"} className="btn btn-primary">
+                COMPRAR
+              </a>
+            </div>
+          </div>
+        </div>
 
       </div>
 
@@ -256,6 +281,33 @@ const GaleriaPage = (props) => {
             </div>
           </div>
         </div>
+        <div>
+          <div className="card" style={{ width: "18rem" }}>
+            <img
+              src="./Img/usados/Astra.webp"
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">Chevrolet Astra:</h5>
+              <p className="card-text">
+                <ul>
+                  <li>Modelo 2018</li>
+                  <li>30.000 km</li>
+                  <li>Nafta</li>
+
+                </ul>
+
+
+              </p>
+              <a href={"/"} className="btn btn-primary">
+                COMPRAR
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div></div>
 
       </div>
       <h2>Motos:</h2>
@@ -381,6 +433,33 @@ const GaleriaPage = (props) => {
             </div>
           </div>
         </div>
+        <div>
+          <div className="card" style={{ width: "18rem" }}>
+            <img
+              src="./Img/motos/Honda_CBR.jpg"
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">Honda CBR:</h5>
+              <p className="card-text">
+                <ul>
+                  <li>Modelo 2022</li>
+                  <li>3.000 km</li>
+                  <li>800 CC</li>
+
+                </ul>
+
+
+              </p>
+              <a href={"/"} className="btn btn-primary">
+                COMPRAR
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div></div>
 
 
       </div>

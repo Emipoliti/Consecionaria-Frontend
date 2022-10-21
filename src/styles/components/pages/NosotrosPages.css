@@ -1,22 +1,41 @@
-.historia{
-    margin: 1em;
-    padding: 0;
+.holder-nosotros{
+    background-color: beige;
 }
+
+.historia{
+    padding: 2em 1em;
+}
+
+.historia h2{
+    padding-bottom: 1em;
+}
+
 
 .historia p{
     font-size: 1em;
-    margin-bottom: 3em;
+    padding: 1em 1.5em 1em 1em; 
 
+}
+
+.staff{
+    margin: 0;
+    
+}
+
+.personas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
 .persona{
     width: 18%;
     float: left;
-    margin-left: 2.25%;
     border: 1px solid black;
     border-radius: 0.25em;
     box-sizing: border-box;
+    background-color: beige;
 }
 
 .persona{

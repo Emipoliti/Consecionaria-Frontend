@@ -3,7 +3,7 @@ import "../styles/components/pages/HomePages.css";
 
 const HomePage = (props) => {
   return (
-    <main className="holder">
+    <main className="holder-home">
       <div className="homeimg">
         <img src="./Img/Consecionaria.webp" alt="Concecionaria" />
       </div>

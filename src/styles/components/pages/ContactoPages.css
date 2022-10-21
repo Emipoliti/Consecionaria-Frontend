@@ -1,39 +1,67 @@
 .holder-contacto{
+    margin: 0;
+    padding: 0;
+
+}
+
+#container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inline-flex;
+    background-color: beige;
+   
+}
+
+.contacto-rapido{
+    border-right: 2px solid gray;
     width: 50%;
-    padding: 0.625em;
-    box-sizing: border-box;
 }
 
-.holder-contacto{
-    border-right: 1px solid gray;
-    float: left;
-}
 
-.holder-contacto h2{
- padding-left: 0em;
-}
 
 .datos{
-    float: right;
     width: 50%;
+    
 }
 
 .datos h2{
-    padding-left: 1em;
+    padding-left: 1.3em;
 }
 
 .datos p{
     font-size: 1em;
     font-weight: bold;
     padding-left: 1.5em;
+    padding-top: 2em;
 }
 
 .datos ul{
-    padding-left: 3.5em;
+    padding-left: 1.5em;
+    border-bottom: solid 2px gray;
+    width: 100%;
 }
 
-.datos ul li{
-    font-size: 1em;
+
+.lista ul{
+    display: inline-flex;
+    list-style: none;
+   
+}
+
+.lista ul li{
+    padding: 3em 1.5em 0 1em;
+}
+
+.lista ul li img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.formulario{
+    width: 500px;
+    padding-left: 1em;
 }
 
 .formulario label{
