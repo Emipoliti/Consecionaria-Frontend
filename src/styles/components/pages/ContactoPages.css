@@ -46,6 +46,7 @@
 .lista ul{
     display: inline-flex;
     list-style: none;
+    cursor: pointer;
    
 }
 
